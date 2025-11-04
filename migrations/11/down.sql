@@ -1,0 +1,4 @@
+
+DROP INDEX idx_streamer_applications_created_at;
+DROP INDEX idx_streamer_applications_status;
+DROP TABLE streamer_applications;

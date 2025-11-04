@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Helvetica Neue', Helvetica, Inter, system-ui, Avenir, Arial, sans-serif;
+}
+
+/* Custom font classes - All using Helvetica Neue for RIVALVERSO */
+.font-bebas {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.font-montserrat {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.font-oswald {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+/* Custom utilities */
+.hover\:scale-102:hover {
+  transform: scale(1.02);
+}
+
+.border-3 {
+  border-width: 3px;
+}

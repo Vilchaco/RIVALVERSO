@@ -1,0 +1,4 @@
+
+DROP INDEX idx_streamer_match_history_timestamp;
+DROP INDEX idx_streamer_match_history_streamer;
+DROP TABLE streamer_match_history;

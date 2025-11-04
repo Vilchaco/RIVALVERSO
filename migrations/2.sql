@@ -1,0 +1,22 @@
+
+INSERT INTO streamers (name, rank, games_played, wins, twitch_username, youtube_username, twitter_username, is_live, avatar_url) VALUES
+('TheGamerMX', 'Platino II', 145, 89, 'thegamermx', 'thegamermx', 'thegamermx', 1, 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&h=400&fit=crop&crop=face'),
+('RivalsQueen', 'Diamante III', 156, 112, 'rivalsqueen', 'rivalsqueen', 'rivalsqueen', 0, 'https://images.unsplash.com/photo-1494790108755-2616b612b1e0?w=400&h=400&fit=crop&crop=face'),
+('HeroicGamer', 'Oro I', 134, 76, 'heroicgamer', null, 'heroicgamer', 1, 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face'),
+('MarvelMaster', 'Platino I', 142, 95, 'marvelmaster', 'marvelmaster', 'marvelmaster', 0, 'https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?w=400&h=400&fit=crop&crop=face'),
+('CosmicPlayer', 'Diamante I', 167, 118, 'cosmicplayer', null, 'cosmicplayer', 1, 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&crop=face'),
+('PowerGamerES', 'Oro III', 128, 71, 'powergameres', 'powergameres', 'powergameres', 0, 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face'),
+('EliteRivals', 'Platino III', 159, 101, 'eliterivals', null, 'eliterivals', 1, 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face'),
+('StreamHero', 'Oro II', 131, 68, 'streamhero', 'streamhero', 'streamhero', 0, 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face'),
+('QuantumGamer', 'Diamante II', 172, 124, 'quantumgamer', null, 'quantumgamer', 1, 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop&crop=face'),
+('SparkStreamer', 'Platino I', 148, 91, 'sparkstreamer', 'sparkstreamer', 'sparkstreamer', 0, 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=face'),
+('TitanPlayer', 'Oro I', 136, 79, 'titanplayer', null, 'titanplayer', 1, 'https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=400&h=400&fit=crop&crop=face'),
+('NeonGamer', 'Diamante I', 164, 115, 'neongamer', 'neongamer', 'neongamer', 0, 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=400&fit=crop&crop=face'),
+('PhoenixStream', 'Platino II', 143, 87, 'phoenixstream', null, 'phoenixstream', 1, 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=400&h=400&fit=crop&crop=face'),
+('VortexPlayer', 'Oro III', 125, 65, 'vortexplayer', 'vortexplayer', 'vortexplayer', 0, 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=400&h=400&fit=crop&crop=face'),
+('CyberRivals', 'Diamante III', 178, 129, 'cyberrivals', null, 'cyberrivals', 1, 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face'),
+('BlitzGamer', 'Platino I', 152, 94, 'blitzgamer', 'blitzgamer', 'blitzgamer', 0, 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&fit=crop&crop=face'),
+('NovaStreamer', 'Oro II', 139, 75, 'novastreamer', null, 'novastreamer', 1, 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=400&h=400&fit=crop&crop=face'),
+('FusionPlayer', 'Diamante II', 161, 108, 'fusionplayer', 'fusionplayer', 'fusionplayer', 0, 'https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=400&h=400&fit=crop&crop=face'),
+('ZenithGamer', 'Platino III', 147, 88, 'zenithgamer', null, 'zenithgamer', 1, 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=face'),
+('AlphaRivals', 'Oro I', 133, 72, 'alpharivals', 'alpharivals', 'alpharivals', 0, 'https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop&crop=face');

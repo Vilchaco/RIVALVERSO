@@ -1,0 +1,2 @@
+
+ALTER TABLE streamers ADD COLUMN rank_score INTEGER DEFAULT 0;

@@ -1,0 +1,33 @@
+# wrangler.toml - Configuración principal (prioridad sobre wrangler.json)
+name = "0199440f-b65f-7cab-a552-eca69173e4c7"
+main = "src/worker/index.ts"
+compatibility_date = "2025-06-17"
+compatibility_flags = ["nodejs_compat"]
+upload_source_maps = true
+
+# Auto-update cron (cada 15 minutos)
+[[triggers.crons]]
+schedule = "0 */15 * * *"
+
+# Assets configuration
+[assets]
+not_found_handling = "single-page-application"
+
+# Observability
+[observability]
+enabled = true
+
+# Variables para desactivar rutas automáticas de Mocha
+[vars]
+MOCHA_DISABLE_AUTO_ROUTES = "true"
+
+# D1 Database
+[[d1_databases]]
+binding = "DB"
+database_name = "0199440f-b65f-7cab-a552-eca69173e4c7"
+database_id = "0199440f-b65f-7cab-a552-eca69173e4c7"
+
+# R2 Bucket
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "0199440f-b65f-7cab-a552-eca69173e4c7"
